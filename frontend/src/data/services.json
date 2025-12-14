@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Transformation",
+    "description": "Implementing Industry 4.0 and smart factory solutions for manufacturing industries.",
+    "icon": "public/icons/digitaltransformation.svg"
+  },
+  {
+    "id": 2,
+    "title": "Web Application Development",
+    "description": "Building custom web applications for manufacturing industries, including ERP, MES, and more.",
+    "icon": "public/icons/webdev.svg"
+  },
+  {
+    "id": 3,
+    "title": "IoT Development",
+    "description": "Developing IoT solutions for manufacturing industries, including sensor integration, data analytics, and more.",
+    "icon": "public/icons/iot.svg"
+  },
+  {
+    "id": 4,
+    "title": "Automation and Control Systems",
+    "description": "Implementing PLC, SCADA, and robotics solutions for manufacturing automation.",
+    "icon": "public/icons/automation.svg"
+  },
+  {
+    "id": 5,
+    "title": "Product Design and Development",
+    "description": "Providing CAD design, prototyping, and product lifecycle management (PLM) services.",
+    "icon": "public/icons/productdesign.svg"
+  },
+  {
+    "id": 6,
+    "title": "Manufacturing Execution Systems (MES)",
+    "description": "Implementing MES solutions for production planning, inventory management, and quality control.",
+    "icon": "public/icons/mes.svg"
+  },
+  {
+    "id": 7,
+    "title": "Supply Chain Management",
+    "description": "Providing logistics, inventory optimization, and demand forecasting solutions.",
+    "icon": "public/icons/scm.svg"
+  },
+  {
+    "id": 8,
+    "title": "Quality Management",
+    "description": "Implementing quality assurance, Six Sigma, and ISO certification solutions.",
+    "icon": "public/icons/qms.svg"
+  },
+  {
+    "id": 9,
+    "title": "Cybersecurity",
+    "description": "Providing industrial control systems (ICS) security, network security, and threat detection solutions.",
+    "icon": "public/icons/cybersecurity.svg"
+  },
+  {
+    "id": 10,
+    "title": "ERP and Business Systems",
+    "description": "Implementing ERP, BPM, and EAM solutions for manufacturing industries.",
+    "icon": "public/icons/erp.svg"
+  },
+  {
+    "id": 11,
+    "title": "Training and Support",
+    "description": "Providing operator training, technical support, and continuous improvement solutions.",
+    "icon": "public/icons/training.svg"
+  },
+  {
+    "id": 12,
+    "title": "Make in India Compliance",
+    "description": "Assisting with Make in India compliance, GST, and taxation consulting.",
+    "icon": "public/icons/makeinindia.svg"
+  },
+  {
+    "id": 13,
+    "title": "Skill Development and Training",
+    "description": "Providing skill development and training programs for manufacturing industries.",
+    "icon": "public/icons/skills.svg"
+  },
+  {
+    "id": 14,
+    "title": "Industry-Specific Solutions",
+    "description": "Providing industry-specific solutions for automotive, pharmaceuticals, textiles, and more.",
+    "icon": "public/icons/industry.svg"
+  },
+  {
+    "id": 15,
+    "title": "Data Analytics and Insights",
+    "description": "Providing data analytics and insights solutions for manufacturing industries.",
+    "icon": "public/icons/dataanalytics.svg"
+  },
+  {
+    "id": 16,
+    "title": "Cloud Solutions",
+    "description": "Providing cloud solutions, including migration, management, and security.",
+    "icon": "public/icons/cloud.svg"
+  },
+  {
+    "id": 17,
+    "title": "Artificial Intelligence (AI) and Machine Learning (ML)",
+    "description": "Providing AI and ML solutions for manufacturing industries, including predictive maintenance and quality control.",
+    "icon": "public/icons/ai-ml.svg"
+  }
+]
