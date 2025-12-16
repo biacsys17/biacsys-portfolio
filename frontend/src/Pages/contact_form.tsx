@@ -31,7 +31,7 @@ export default function ContactForm() {
 
   // Send data to backend
   async function submitToServer(payload: FormState) {
-  const res = await fetch("http://biacsys-backend-env.eba-mmrdihu8.ap-southeast-2.elasticbeanstalk.com", {
+  const res = await fetch("http://biacsys-backend-env.eba-mmrdihu8.ap-southeast-2.elasticbeanstalk.com/api/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({

@@ -1,4 +1,40 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
+
+:root {
+  --container-max: 1200px;
+  --container-pad: clamp(12px, 2.5vw, 24px);
+}
+
+html, body, #root {
+  /* min-height: 100dvh; */
+}
+
 body{
-   
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: min(100% - var(--container-pad) * 2, var(--container-max));
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  :root { --container-max: 1100px; }
+}
+
+@media (min-width: 1024px) {
+  :root { --container-max: 1240px; }
+}
+
+@media (min-width: 1280px) {
+  :root { --container-max: 1320px; }
 }
