@@ -5,9 +5,7 @@
   --container-pad: clamp(12px, 2.5vw, 24px);
 }
 
-html, body, #root {
-  min-height: none;
-}
+
 
 body{
   margin: 0;
