@@ -3,7 +3,7 @@ import contactusIcon from "../assets/contactus.svg";
 import Hero_Image from "../assets/images/Hero-image.svg"; 
 export default function HomeScreen(){
    return(
-     <div className="bg-green-50 px-4 sm:px-6 lg:px-8 py-8 md:py-16">
+     <div className="bg-green-50 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
          <div className="Hero-section">
            <p className="text-1xl max-w-md font-bold text-gray-600 ">BIACSYS helps manufacturing and industrial businesses with practical consulting and 24x7 digital solutions. From custom software, websites, and apps to modernizing old tools and systems, everything is built to improve your operations and productivity.</p>
