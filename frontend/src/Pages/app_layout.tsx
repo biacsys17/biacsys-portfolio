@@ -6,22 +6,13 @@ interface AppLayoutProps {
   toggleTheme: () => void;
 }
 
-function AppLayout({ }: AppLayoutProps) {
+function AppLayout({}: AppLayoutProps) {
   return (
     <Wrapper>
-      <div className="overflow-hidden">
-
-        {/* NAVBAR should be alone */}
-        <div className="Nav-Bar ">
-          <NavBar />
-        </div>
-
-        {/* ROUTED PAGE CONTENT */}
-        <div className="main-layout">
-          <Outlet />
-        </div>
-
-      </div>
+      <NavBar />
+      <main>
+        <Outlet />
+      </main>
     </Wrapper>
   );
 }
