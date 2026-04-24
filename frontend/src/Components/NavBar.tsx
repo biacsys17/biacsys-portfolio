@@ -18,14 +18,12 @@ export default function NavBar() {
           </div>
 
           <div className="hidden md:flex items-center gap-6">
-            <Link className="text-gray-700 hover:text-black" to="/">Home</Link>
-            <Link className="text-gray-700 hover:text-black" to="/services">Services</Link>
-            <Link className="text-gray-700 hover:text-black" to="/about">About</Link>
-            <Button to="/contact" padding="10px 24px">Contact Us</Button>
+
+
           </div>
 
           <div className="md:hidden flex items-center">
-            <button
+            <button   
               aria-label="Toggle menu"
               onClick={() => setOpen((v) => !v)}
               className="inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-300"
@@ -47,11 +45,9 @@ export default function NavBar() {
       {open && (
         <div className="md:hidden border-t">
           <div className="space-y-1 px-4 py-3">
-            <Link className="block py-2 text-gray-700" to="/" onClick={() => setOpen(false)}>Home</Link>
-            <Link className="block py-2 text-gray-700" to="/services" onClick={() => setOpen(false)}>Services</Link>
-            <Link className="block py-2 text-gray-700" to="/about" onClick={() => setOpen(false)}>About</Link>
+           
             <div className="pt-2">
-              <Button to="/contact" padding="10px 24px">Contact Us</Button>
+        
             </div>
           </div>
         </div>

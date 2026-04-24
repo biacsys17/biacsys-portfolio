@@ -3,6 +3,7 @@ import Contact from "./Pages/contact_form";
 import Home from "./Pages/homescreen";
 import Services from "./Pages/services";
 import AboutUs from "./Pages/aboutus";
+import NDTGoPaperless from "./Pages/ndt-go-paperless";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./theme/theme.model";
@@ -23,10 +24,8 @@ function App() {
     <ThemeProvider theme={currentTheme}>
     <Layout toggleTheme={toggleTheme} />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/services" element={<Services/>} />
-        <Route path="/about" element={<AboutUs/>} />
-        <Route path="/contact" element={<Contact/>} />
+
+        <Route path="/" element={<NDTGoPaperless/>} />
       </Routes>
     </ThemeProvider>
     </BrowserRouter>
